@@ -59,10 +59,4 @@ body {
 			padding: 20px;
 			text-align: center;
 		}
-		#haby .profile-img {
-    width: 300px;
-    border-radius: 50%; /* Add this line */
-		}	
-		#haby {
-			background-image: url('uw.jpg');
-		}		
+		

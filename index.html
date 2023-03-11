@@ -73,6 +73,18 @@ body {
 		#haby {
 			background-image: url('uw.jpg');
 		}		
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
 	</style>
 </head>
 <body>
@@ -84,13 +96,22 @@ body {
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="books.html">Book Suggestions</a>
-		<a href="csfi.html">Interesting fields</a>
+		<a href="csfi.html">Cars</a>
 		<a href="contact.html">Contact</a>
 	</nav>
 	<main>
 		<h2>Welcome to my personal page!</h2>
-		<p>I am a computer scientis major at UW Madison. <br> I love reading and doing side projects on my own. <br> 
-		Here you can learn more about me, books that I find interesting, and CS fields that I am intersted in. Use the navigation bar above to explore the different sections of my page.</p>
+		<p>I am a computer scientis major at UW Madison. <br> I love reading and driving and a cat lover. <br> 
+		Here you can learn more about me, books that I find interesting, and cars I am intersted in. Use the navigation bar above to explore the different sections of my page.
+		<br> Here are also pictures of my Cat Dana!</p>
+		<div class="row">
+			<div class="column">
+				<img src="Dana1.jpg" alt="Dana1" width="300" height="300">
+			</div>
+			<div class="column">
+			<img src="Dana2.jpg" alt="Dana2" width="300" height="300" >
+			</div>
+		</div>
 	</main>
 	<footer>
 		<p>&copy; 2023 Ali Alfarhan. All rights reserved.</p>
